@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Young Serif", serif;
+}
+.container{
+    padding: 50px;
+}
+.section--one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.section--one__contact{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+.section--one__name{
+ font-size: 60px;   
+}
+.section--one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section--two,.section--three,.section--four,.section--five{
+    margin-top: 20px;
+}
+.section--two__des,.section--three__des,.section--four__des,.section--five__des{
+    margin-top: 10px;
+}
+.section--five{
+    background-color: black;
+    color:white;
+    padding: 20px;
+}
+.section--five a{
+    color: skyblue;
+}
+.section--three,.section--four li{
+    list-style: none;
+}
+.section--three{
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+.section--four{
+    background-color: orange;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+.section--form__inputname,.section--form__inputemail,.section--form__inputtextarea,.section--form__inputsubmit{
+    margin-top: 10px;
+
+}
+.section--form__inputname,.section--form__inputemail{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.section--form__inputtextarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+.section--form__inputsubmit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+
+}
